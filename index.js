@@ -6,12 +6,12 @@ const fs = require('fs').promises
 const feed = new Feed({
   title: '新浪新闻',
   description: '新浪全球实时财经新闻',
-  link: 'https://ruanyf.github.io/sina-news/',
+  link: 'https://new-rss.netlify.app//',
   language: 'zh-CN',
   generator: 'sina news feed generator',
   feedLinks: {
-    json: 'https://ruanyf.github.io/sina-news/rss.json',
-    rss: 'https://ruanyf.github.io/sina-news/rss.xml'
+    json: 'https://new-rss.netlify.app//rss.json',
+    rss: 'https://new-rss.netlify.app//rss.xml'
   },
 });
 
@@ -53,6 +53,7 @@ async function main() {
     console.log(`successfully write rss.xml`);
 
     await fs.copyFile('./template/index.html', `./dist/index.html`);
+    await fs.copyFile('./template/favicon.ico', `./dist/favicon.ico`);
     await fs.copyFile('./template/page.js', `./dist/page.js`);
     console.log(`successfully copy asset files`);
 
