@@ -17,6 +17,6 @@ fetch('./rss.json')
 
 window.onload = function () {
   if (window.console) {
-    console.log('%c ᕦ 每日全球财经新闻 ᕤ \n  ᕦ copyright from Sina ᕤ','color:#2cccd3;24px -apple-system,Microsoft YaHei,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,PingFang SC,Hiragino Sans GB,sans-serif')
+    console.log('%c ᕦ 每日全球财经新闻  copyright from Sina ᕤ','color:#2cccd3;24px -apple-system,Microsoft YaHei,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,PingFang SC,Hiragino Sans GB,sans-serif')
   }
 }
