@@ -1,29 +1,83 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>【实时】新浪财经新闻</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
-    <link rel="alternate" type="application/rss+xml" title="Recent Entries" href="https://cdn.jsdelivr.net/gh/JerichoDing/sina-rss@1.1/dist/rss.xml">
-    <link rel="icon" href="https://cdn.jsdelivr.net/gh/JerichoDing/sina-rss@1.1/template/favicon.ico">
-    <style>
-      p {
-        max-width: 50rem;
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>【实时】新浪财经新闻</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+  <link rel="alternate" type="application/rss+xml" title="Recent Entries"
+    href="https://cdn.jsdelivr.net/gh/JerichoDing/sina-rss@1.1/dist/rss.xml">
+  <link rel="icon" href="https://cdn.jsdelivr.net/gh/JerichoDing/sina-rss@1.1/template/favicon.ico">
+  <style>
+    p {
+      max-width: 50rem;
+    }
+
+    li {
+      margin: 1rem;
+    }
+
+    .notification {
+      padding: 1rem;
+      position: relative;
+    }
+
+    .notification:nth-of-type(even) {
+      width: 80%;
+    }
+
+    .notification::after {
+      position: absolute;
+      top: 0;
+      width: 30%;
+      height: 100%;
+      content: "";
+      background: linear-gradient(to right, rgba(255, 255, 255, 0) 0,
+          rgba(255, 255, 255, .3) 50%, rgba(255, 255, 255, 0) 100%);
+      transform: skewX(-45deg);
+      z-index: 99;
+      animation: skeleton-ani 1s ease infinite ;
+      display: block;
+
+    }
+
+
+    @keyframes skeleton-ani {
+      from {
+        left: 0%;
       }
-      li {
-        margin: 1rem;
+
+      to {
+        left: 70%;
       }
-    </style>
-  </head>
-  <body>
+    }
+  </style>
+</head>
+
+<body>
   <section class="section">
     <div class="container">
       <h2 class="title"> 全球实时财经新闻 </h2>
-      <ol class="list"></ol>
+      <ol class="list">
+        <div class="notification is-info is-light"></div>
+        <div class="notification is-info is-light"></div>
+        <div class="notification is-info is-light"></div>
+        <div class="notification is-info is-light"></div>
+        <div class="notification is-info is-light"></div>
+        <div class="notification is-info is-light"></div>
+        <div class="notification is-info is-light"></div>
+        <div class="notification is-info is-light"></div>
+        <div class="notification is-info is-light"></div>
+        <div class="notification is-info is-light"></div>
+        <div class="notification is-info is-light"></div>
+        <div class="notification is-info is-light"></div>
+        <div class="notification is-info is-light"></div>
+        <div class="notification is-info is-light"></div>
+      </ol>
     </div>
   </section>
-  </body>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/JerichoDing/sina-rss@1.1/template/page.js"></script>
-</html>
+</body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/JerichoDing/sina-rss@1.1/template/page.js"></script>
 
+</html>
