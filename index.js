@@ -6,12 +6,12 @@ const fs = require('fs').promises
 const feed = new Feed({
   title: '新浪新闻',
   description: '新浪全球实时财经新闻',
-  link: 'https://new-rss.netlify.app//',
+  link: 'https://new-rss.netlify.app',
   language: 'zh-CN',
   generator: 'sina news feed generator',
   feedLinks: {
-    json: 'https://new-rss.netlify.app//rss.json',
-    rss: 'https://new-rss.netlify.app//rss.xml'
+    json: 'https://cdn.jsdelivr.net/gh/JerichoDing/sina-rss@1.1/dist/rss.json',
+    rss: 'https://cdn.jsdelivr.net/gh/JerichoDing/sina-rss@1.1/dist/rss.xml'
   },
 });
 
