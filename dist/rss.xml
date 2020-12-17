@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>新浪新闻</title>
+        <link>https://new-rss.netlify.app//</link>
+        <description>新浪全球实时财经新闻</description>
+        <lastBuildDate>Thu, 17 Dec 2020 09:28:03 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>sina news feed generator</generator>
+        <language>zh-CN</language>
+        <atom:link href="https://new-rss.netlify.app//rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[俄罗斯总统普京：俄罗斯是世界上新冠病毒检测能力排名前三的国家之一。]]></title>
+            <link>https://finance.sina.cn/7x24/2020-12-17/detail-iiznctke7031839.d.html</link>
+            <guid>1934272</guid>
+            <pubDate>Thu, 17 Dec 2020 09:27:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[比特币短线回落近800美元，现报23038美元/枚。]]></title>
+            <link>https://finance.sina.cn/7x24/2020-12-17/detail-iiznctke7031642.d.html</link>
+            <guid>1934271</guid>
+            <pubDate>Thu, 17 Dec 2020 09:25:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[【中基协：11月企业资产证券化产品共备案确认164只 新增备案规模合计2066.50亿元】中国基金业协会发布11月企业资产证券化业务备案运行情况简报，11月，企业资产证券化产品共备案确认164只，新增备案规模合计2066.50亿元。截至2020年11月底，存续企业资产证券化产品2056只，存续规模20268.10亿元。]]></title>
+            <link>https://finance.sina.cn/7x24/2020-12-17/detail-iiznctke7031538.d.html</link>
+            <guid>1934270</guid>
+            <pubDate>Thu, 17 Dec 2020 09:25:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[中国建筑公告，前11月新签合同总额28137亿元，同比增长13.1%。]]></title>
+            <link>https://finance.sina.cn/7x24/2020-12-17/detail-iiznctke7031484.d.html</link>
+            <guid>1934269</guid>
+            <pubDate>Thu, 17 Dec 2020 09:24:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[俄罗斯总统普京：世界上没有任何卫生保健系统可以应对新冠肺炎疫情造成的大规模问题。]]></title>
+            <link>https://finance.sina.cn/7x24/2020-12-17/detail-iiznctke7031447.d.html</link>
+            <guid>1934268</guid>
+            <pubDate>Thu, 17 Dec 2020 09:24:30 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[【香港暂停俄罗斯、日本和韩国部分地区禽肉及禽类产品进口】香港食物环境卫生署食物安全中心宣布，因应世界动物卫生组织及韩国农林畜产食品部分别通报，指俄罗斯Astrakhanskaya Oblast及韩国全罗北道Imsil郡、忠清南道Cheonan市和庆尚北道Gumi市爆发高致病性H5N8禽流感，以及日本农林水产省通报，指日本高知县爆发高致病性H5禽流感，中心即时指示业界暂停上述地区进口禽肉及禽类产品（包括禽蛋），以保障本港公众健康。]]></title>
+            <link>https://finance.sina.cn/7x24/2020-12-17/detail-iiznezxs7447170.d.html</link>
+            <guid>1934267</guid>
+            <pubDate>Thu, 17 Dec 2020 09:23:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[俄总统普京在年度大型记者会上表示，俄罗斯开始摆脱对石油天然气的依赖，目前已有70%的俄财政收入不是油气收入。（卫星新闻）]]></title>
+            <link>https://finance.sina.cn/7x24/2020-12-17/detail-iiznctke7031304.d.html</link>
+            <guid>1934266</guid>
+            <pubDate>Thu, 17 Dec 2020 09:23:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[【普京：2020俄罗斯GDP下降3.6%，低于欧洲和美国】北京时间12月17日17时许，俄罗斯总统普京举行2020年度记者会。据俄罗斯卫星网消息，普京在记者会上表示，2020俄罗斯国内生产总值（GDP）下降3.6%，低于欧洲和美国。]]></title>
+            <link>https://finance.sina.cn/7x24/2020-12-17/detail-iiznezxs7446946.d.html</link>
+            <guid>1934265</guid>
+            <pubDate>Thu, 17 Dec 2020 09:22:15 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[【市场分析：更广泛的采用将使比特币的价值进一步增长】比特币周四创下历史新高，目前已突破23000美元/枚。因其快速获利的潜力和通胀对冲特性，吸引了投资者的注意，使得这一全球最受瞩目的加密货币今年已累计上涨逾175%。比特币近期的上涨在一定程度上是因为越来越多的预期显示它将很快成为一种主流支付方式，摆脱了此前不透明的形象。分析师表示，更广泛的采用将使比特币的价值进一步增长，这只是一个开始。]]></title>
+            <link>https://finance.sina.cn/7x24/2020-12-17/detail-iiznctke7030790.d.html</link>
+            <guid>1934264</guid>
+            <pubDate>Thu, 17 Dec 2020 09:20:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[【国办：创新市域（郊）铁路市场化投融资模式，全面放开市场准入】国务院办公厅转发国家发展改革委等单位《关于推动都市圈市域（郊）铁路加快发展意见》的通知。《意见》指出，将创新市域（郊）铁路市场化投融资模式，全面放开市场准入，培育多元投资主体，支持城市政府与企业共同出资成立一体化投资主体，吸引包括民间资本、外资在内的社会资本参与投资建设和运营管理。]]></title>
+            <link>https://finance.sina.cn/7x24/2020-12-17/detail-iiznezxs7446457.d.html</link>
+            <guid>1934263</guid>
+            <pubDate>Thu, 17 Dec 2020 09:19:45 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
