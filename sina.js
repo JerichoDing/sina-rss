@@ -74,7 +74,7 @@
 const endpoint = 'https://zhibo.sina.com.cn/api/zhibo/feed';
 const params = new URLSearchParams({
   page: 1,
-  page_size: 100,
+  page_size: 90,
   zhibo_id: 152,
   tag_id: 0,
   dire: 'f',
