@@ -1,4 +1,4 @@
-fetch('./rss.json')
+fetch('https://cdn.jsdelivr.net/gh/JerichoDing/sina-rss@1.1/dist/rss.json')
 .then(async function (response) {
   const res = await response.json();
   const items = res.items;
