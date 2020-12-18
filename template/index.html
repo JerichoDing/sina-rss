@@ -17,7 +17,6 @@
     li {
       margin: 1rem;
     }
-
     .notification {
       padding: 1rem;
       position: relative;
@@ -52,6 +51,8 @@
         left: 70%;
       }
     }
+    .select{ width: 100%; }
+    .select select{ width: 100%; }
   </style>
 </head>
 
@@ -59,11 +60,11 @@
   <section class="section">
     <div class="container">
       <h2 class="field title">
-        <form class="control">
-          <div class="select is-active">
+        <form class="control ">
+          <div class=" select is-active">
             <select id="select" name="select" onchange="changeList()">
-              <option value="volvo" class="select-item">聚焦中国，观察全球</option>
-              <option value="all" class="select-item">全球实时财经新闻</option>
+              <option class="select-item">聚焦中国，观察全球</option>
+              <option class="select-item">全球实时财经新闻</option>
             </select>
           </div>
         </form>
