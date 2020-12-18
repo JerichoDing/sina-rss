@@ -22,12 +22,9 @@ async function main() {
       headers: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10130'}
     });
     const json = await response.json();
-    console.log(`successfully fetch the feed.`);
-
     const result = json.result || {};
     if (!result.status || result.status.code !== 0) return;
     const items = result.data.feed.list;
-    console.log(`successfully parse the feed.`);
 
     items.forEach(item => {
       feed.addItem({
@@ -38,25 +35,29 @@ async function main() {
         date: new Date(item.create_time + '+08:00'),
       });
     });
-    console.log(`successfully generating new feed.`);
 
     await fs.rmdir('./dist', { recursive: true});
-    console.log(`successfully deleted ./dist`);
-
     await fs.mkdir('./dist');
-    console.log(`successfully create ./dist`);
 
     await fs.writeFile('./dist/rss.json', feed.json1());
-    console.log(`successfully write rss.json`);
-
     await fs.writeFile('./dist/rss.xml', feed.rss2());
-    console.log(`successfully write rss.xml`);
 
     await fs.copyFile('./template/index.html', `./dist/index.html`);
     await fs.copyFile('./template/favicon.ico', `./dist/favicon.ico`);
     await fs.copyFile('./template/page.js', `./dist/page.js`);
-    console.log(`successfully copy asset files`);
 
+    console.log(`successfully`);
+
+
+    let lvvResult = await fetch(`https://ruanyf.github.io/lvv2-feed/rss.json?t=${new Date().getTime()}`, {
+      headers: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10130'}
+    });
+    const lvv = await lvvResult.json();
+    lvv.title = '聚焦中国，观察全球'
+    lvv.description = 'Copyright from https://lvv2.com'
+    lvv.home_page_url = 'https://new-rss.netlify.app'
+    const lvvFeed = JSON.stringify(lvv,"","\t")
+    await fs.writeFile('./dist/lvv.json', lvvFeed);
   } catch (err) {
     throw err;
   }

@@ -58,23 +58,17 @@
 <body>
   <section class="section">
     <div class="container">
-      <h2 class="title"> 全球实时财经新闻 </h2>
-      <ol class="list">
-        <div class="notification is-info is-light"></div>
-        <div class="notification is-info is-light"></div>
-        <div class="notification is-info is-light"></div>
-        <div class="notification is-info is-light"></div>
-        <div class="notification is-info is-light"></div>
-        <div class="notification is-info is-light"></div>
-        <div class="notification is-info is-light"></div>
-        <div class="notification is-info is-light"></div>
-        <div class="notification is-info is-light"></div>
-        <div class="notification is-info is-light"></div>
-        <div class="notification is-info is-light"></div>
-        <div class="notification is-info is-light"></div>
-        <div class="notification is-info is-light"></div>
-        <div class="notification is-info is-light"></div>
-      </ol>
+      <h2 class="field title">
+        <form class="control">
+          <div class="select is-active">
+            <select id="select" name="select" onchange="changeList()">
+              <option value="volvo" class="select-item">聚焦中国，观察全球</option>
+              <option value="all" class="select-item">全球实时财经新闻</option>
+            </select>
+          </div>
+        </form>
+      </h2>
+      <ol class="list"> </ol>
     </div>
   </section>
 </body>
